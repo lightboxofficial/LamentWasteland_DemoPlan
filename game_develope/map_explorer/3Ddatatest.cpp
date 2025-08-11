@@ -17,7 +17,7 @@ int main()
     while(1 != 0)
     {
         cout<<"请输入更改的方块位置（x, y, z）和新值："<<endl;
-        cout<<"如果想要退出请输入-1 -1 -1 -1"<<endl;
+        cout<<"如果想要退出请输入-1 -1 -1 -1(作者TMD是个蒸馍啊啊啊啊啊啊啊-全剧终)"<<endl;
         int x, y, z, value;
         cin >> x >> y >> z >> value;
         if(x == -1 && y == -1 && z == -1 && value == -1)
