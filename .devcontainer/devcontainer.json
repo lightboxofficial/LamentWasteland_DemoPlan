@@ -1,8 +1,0 @@
-{
-  "name": "Ursina with Xvfb",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  "runArgs": ["--privileged"],  // 允许访问设备（如Xvfb）
-  "postCreateCommand": "bash .devcontainer/setup_xvfb.sh"  // 启动后自动运行脚本
-}
