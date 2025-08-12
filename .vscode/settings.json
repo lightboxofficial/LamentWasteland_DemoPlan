@@ -44,5 +44,6 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "python.defaultInterpreterPath": "/home/codespace/.python/current/bin/python"
 }
