@@ -1,9 +1,10 @@
 #include<iostream>
 using namespace std;
 
+int matrix3d[10][10][10];//全局变量，自动初始化为0
 int main()
 {
-    int matrix3d[10][10][10] = {0};
+    /*int matrix3d[10][10][10] = {0};
     for(int x = 0; x < 10; x++)
     {
         for(int y = 0; y < 10; y++)
@@ -13,7 +14,8 @@ int main()
                 matrix3d[x][y][z] = 0;
             }
         }
-    }
+    }*/
+    //写在全局变量可以直接归零->第4行
     while(1 != 0)
     {
         cout<<"请输入更改的方块位置（x, y, z）和新值："<<endl;
